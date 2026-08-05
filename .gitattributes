@@ -1,0 +1,6 @@
+# The updater compares SHA-1 hashes byte-for-byte against what it downloads.
+# Git's automatic LF<->CRLF conversion would change text files (README, .bat,
+# .lang) on checkout, so their served bytes would never match the manifest and
+# the updater would re-download them on every single launch.
+# Treat everything as binary so what we publish is exactly what we hashed.
+* -text
