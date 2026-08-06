@@ -1,5 +1,5 @@
 # Project Overcast update manifest
-# generated 2026-08-05 03:30:06
+# generated 2026-08-05 19:59:07
 # <sha1> <size> <path relative to install root>
 60623881304026f8df7f85cce1045f13e19199eb 3749 forge/mcp/bin/minecraft/Start.class
 76bb5bcc31eab1c39a6808abc5b63039b9449fba 1391 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
@@ -36,7 +36,7 @@ b57839efc0b2a695aae6a2d5345d1163fab13de5 2981 forge/mcp/bin/minecraft/com/citrus
 449d14569b24b09ee793b4edc487bdf89aa642ff 243 forge/mcp/bin/minecraft/com/citrusedition/mod/ChopCorpseHandler$1.class
 dc9dfd62484175a394a490419e9e0b5b4042d93d 726 forge/mcp/bin/minecraft/com/citrusedition/mod/ChopCorpseHandler$ChopProgress.class
 a95c623cb7cf777a926f7838a865a1ac2331ffe4 6381 forge/mcp/bin/minecraft/com/citrusedition/mod/ChopCorpseHandler.class
-682d4c9a62fd3ee58695298ff2dce6afe1a95372 2454 forge/mcp/bin/minecraft/com/citrusedition/mod/CitrusEdition.class
+edf1adc8adb942c3a30d79379fb8a225305bf1f2 2457 forge/mcp/bin/minecraft/com/citrusedition/mod/CitrusEdition.class
 e0d411cd78eb5b2f9d644971dcf1c0eaad322a7a 1577 forge/mcp/bin/minecraft/com/citrusedition/mod/CitrusGuiHandler.class
 235ee212b65606717fafa32d397914ec1061c6e4 1966 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSanity.class
 67e84c6703d11b272ee054888841ed83c4afef79 2591 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetEmotion.class
