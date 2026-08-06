@@ -1,5 +1,5 @@
 # Project Overcast update manifest
-# generated 2026-08-06 15:06:33
+# generated 2026-08-06 15:12:39
 # <sha1> <size> <path relative to install root>
 60623881304026f8df7f85cce1045f13e19199eb 3749 forge/mcp/bin/minecraft/Start.class
 33c2a34cdece9bb5e33cde766060a1d700bf17c9 1496 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
@@ -2301,4 +2301,4 @@ f34afa3ba5f756e90a1f61023bbe069ee8442608 1558180 forge/mcp/jars/assets/records/s
 876655d1691803f4cef17a6288d971285be79c6a 1845255 forge/mcp/jars/assets/records/wait.ogg
 f685021d4f26d6b590bffb341908e25e92e18cef 1987588 forge/mcp/jars/assets/records/ward.ogg
 f3b510f040acebdc17a998820538a4bcd5e241d3 6865 README.txt
-1c8bb04162727c2aa084b2e5810262183a727ef2 447 Launch Project Overcast.bat
+3b3fbb638b368934c809a2fa3beed4565d01f08f 767 Launch Project Overcast.bat
