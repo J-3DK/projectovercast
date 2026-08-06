@@ -26,3 +26,5 @@ tile.citrusedition.loose_lapis_ore.name=Loose Lapis Lazuli Ore
 tile.citrusedition.loose_diamond_ore.name=Loose Diamond Ore
 tile.citrusedition.loose_emerald_ore.name=Loose Emerald Ore
 tile.citrusedition.loose_quartz_ore.name=Loose Nether Quartz Ore
+death.attack.citrus_freeze=%1$s froze to death
+death.attack.citrus_heatstroke=%1$s succumbed to the heat

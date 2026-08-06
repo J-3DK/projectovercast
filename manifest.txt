@@ -1,8 +1,8 @@
 # Project Overcast update manifest
-# generated 2026-08-05 19:59:07
+# generated 2026-08-06 15:06:33
 # <sha1> <size> <path relative to install root>
 60623881304026f8df7f85cce1045f13e19199eb 3749 forge/mcp/bin/minecraft/Start.class
-76bb5bcc31eab1c39a6808abc5b63039b9449fba 1391 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
+33c2a34cdece9bb5e33cde766060a1d700bf17c9 1496 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
 7f89c30611df5ff0ce8825617c73e3ecb823d1e6 619 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_front.png
 e6ad26738edef951b1de9b153de904529b4a57fd 528 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_side.png
 93fb0b66b2c4fd774919cee18af619f42d9540d0 717 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_top.png
@@ -41,7 +41,7 @@ e0d411cd78eb5b2f9d644971dcf1c0eaad322a7a 1577 forge/mcp/bin/minecraft/com/citrus
 235ee212b65606717fafa32d397914ec1061c6e4 1966 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSanity.class
 67e84c6703d11b272ee054888841ed83c4afef79 2591 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetEmotion.class
 027439457b788cec2bf31f31d09d1922e50a92dd 2577 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetSanity.class
-dce391d82de4add532c92270bedda1586303664b 11127 forge/mcp/bin/minecraft/com/citrusedition/mod/CommonProxy.class
+00accf333a181fa8d942be81b2541b4c886c241b 11365 forge/mcp/bin/minecraft/com/citrusedition/mod/CommonProxy.class
 960f13f8a9f715f5c205099bdfa9e02f66fb8893 2632 forge/mcp/bin/minecraft/com/citrusedition/mod/ContainerCabinet.class
 041e45f4c72d219c596bb0f7c6ef73faa68a5c31 1979 forge/mcp/bin/minecraft/com/citrusedition/mod/CrudeSpearCombatHandler.class
 aad127f2d981319155dad1c62a54ea62ebb52598 2265 forge/mcp/bin/minecraft/com/citrusedition/mod/DamageIndicatorTriggerHandler.class
@@ -70,13 +70,19 @@ dc3f72eb57898f07e507f22da7d810fb8737d759 1267 forge/mcp/bin/minecraft/com/citrus
 cfa59bc3d34e4806e4c62fcd5ea41915697cd350 2443 forge/mcp/bin/minecraft/com/citrusedition/mod/SanityPacketHandler.class
 9340e52c112622a0b8b1947a6982b5470e3026d9 2593 forge/mcp/bin/minecraft/com/citrusedition/mod/SanityProperties.class
 82b6274426720f283dbc0f67ac17fdf01ee5290c 5891 forge/mcp/bin/minecraft/com/citrusedition/mod/SanityTickHandler.class
+1358c7fcbcc4b02eb73a0c040167bdcad2265357 4506 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureCalculator.class
+f6b530b5bf7b29258020a906063a37896c8665f1 888 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureDamageSource.class
+103be43af085ecd3d11afbc867f3a2b131ff2db5 1999 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureEventHandler.class
+684efcd0c9423b35e9f48a2cb3d4644d185a5564 2481 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperaturePacketHandler.class
+6dbd4864c0ac8e65e12f8bdfaddfbacc682ccf4a 2688 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureProperties.class
+0cac6de25dd1ede5f6a5c3a2c5a72b7c52bf212b 4072 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureTickHandler.class
 55b69ee217d4038324a93a8faf1481aa9b84880a 4029 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityCabinet.class
 3a22dc1e4f98b5495e139e29cd3a4c4cfe45262f 333 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityFence.class
 8d1af653f56454f67784576d97cda5239dd787a7 3243 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodPacketHandler.class
 b7354101a22e1451efdf49a02a427e483bb55143 1772 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodParticle.class
 beda96fb6277a29ab4a1fd29b419d3c352627a25 2359 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodReactionHud.class
 3ea87c14f4b08a1f2b57071ec2c8efa7ab301426 3485 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodSplatterParticle.class
-f627a24a943a2f283456cc8c6ded7482b817c0ce 2796 forge/mcp/bin/minecraft/com/citrusedition/mod/client/ClientProxy.class
+5fb370bcba6c37605ec5e520a5833b8a88b48d3a 2875 forge/mcp/bin/minecraft/com/citrusedition/mod/client/ClientProxy.class
 4bde57a10ae598d6c87c7d2b4342d44af046fb55 1006 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicator.class
 2f09936c9ba4be647751253d8c16b02f4aad3625 3343 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicatorManager.class
 b3a69e3cf1efd9c9331467ebe62c3b21a3a0aa1e 2079 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicatorPacketHandler.class
@@ -86,6 +92,7 @@ ff64554d1aa7c8f56100a5ae373b9a24944e8641 844 forge/mcp/bin/minecraft/com/citruse
 c63adf0ee56c42eeb0f84a54c8385822623a395d 2493 forge/mcp/bin/minecraft/com/citrusedition/mod/client/RenderPlayerCorpse.class
 56442d03dadbae9a0f9eb74b1bf005957653aea9 3299 forge/mcp/bin/minecraft/com/citrusedition/mod/client/SanityHallucinationHandler.class
 e42f91d4cf9cb87bc1baec953b5dcd3448dba702 2875 forge/mcp/bin/minecraft/com/citrusedition/mod/client/SanityHudRenderer.class
+eea7c8dd925af614d81a71bb1dd93762b9067d2d 3395 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TemperatureHudRenderer.class
 4fe043bb770e4a82fd60aefef243ccb90bd156ce 3004 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityDrawerRenderer.class
 b8f2516f62b340cb8a3f28110103fc54eb12cd9b 3629 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityFenceRenderer.class
 c3eceab8ba6ade7999e151c42e983c238278c792 3181 forge/mcp/bin/minecraft/com/citrusedition/mod/client/WindTrailEffectHandler.class
@@ -408,7 +415,7 @@ f0c4645a02ba14e73605780e1ffdff78adf53627 64502 forge/mcp/bin/minecraft/net/minec
 0e97a88bc6c8109ffd44c8f923167de6c75628e7 6617 forge/mcp/bin/minecraft/net/minecraft/block/BlockBasePressurePlate.class
 13545b2c04565bb24f7aa5a7f3b771cba64f297a 7076 forge/mcp/bin/minecraft/net/minecraft/block/BlockBaseRailLogic.class
 d96a2b558fa2d3b7451ae809b6f04d027675d7e7 3034 forge/mcp/bin/minecraft/net/minecraft/block/BlockBeacon.class
-80d1828d979383eb83774c80ac20c7c177e88f55 8880 forge/mcp/bin/minecraft/net/minecraft/block/BlockBed.class
+4ecf42b91862238d57fdfe8573a7acff3dcdd245 9214 forge/mcp/bin/minecraft/net/minecraft/block/BlockBed.class
 8b5f75d771c24e7cc3577a44cae4e3d2ede5382c 1570 forge/mcp/bin/minecraft/net/minecraft/block/BlockBookshelf.class
 a61e56bcc5567a7fe1c1710aae1510e534b0bbd1 1752 forge/mcp/bin/minecraft/net/minecraft/block/BlockBreakable.class
 20244427454f53fe7f9b17ebeea57fe246b13485 6756 forge/mcp/bin/minecraft/net/minecraft/block/BlockBrewingStand.class
@@ -634,7 +641,7 @@ f2213c8f86d11ea1e5b085fb9f7ab84fc8c5dd71 7983 forge/mcp/bin/minecraft/net/minecr
 6006720e48ba3c6bda1d1e1473a6cc4fba5d0a79 5589 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiSnooper.class
 d81131cf13726220a553baf7cf242b498d0e56f7 1994 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiSnooperList.class
 3d2f0f4f2c6cdc44c2c77ed513089b453f25fce2 10088 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiTextField.class
-5098ee4942d0d8cb969eafedf5668e0002af590d 5517 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiVideoSettings.class
+d0f72ef77071d037ad2405a0a04367f8083fb8f8 5492 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiVideoSettings.class
 c435ff46c283559c2ab30235884e3dff5f8dfd99 7745 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiWinGame.class
 015fc936f71e2ae3a26b93f79248ab844c9af824 4632 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiWorldSlot.class
 f4de6a30b9ddc0a1856c3d23af8dbacbc51f7fd6 2539 forge/mcp/bin/minecraft/net/minecraft/client/gui/GuiYesNo.class
@@ -822,7 +829,7 @@ de91ec5da42b1ccf6f9f068988cca3979149fb36 1195 forge/mcp/bin/minecraft/net/minecr
 c8fce746e2eaaa46428181e0d59ecc3fee0d0f1e 1765 forge/mcp/bin/minecraft/net/minecraft/client/renderer/CallableScreenSize.class
 e81ae9ff2cd947d184891bb4a8d16b5a0d42531f 1572 forge/mcp/bin/minecraft/net/minecraft/client/renderer/ChestItemRenderHelper.class
 88eb6488cfb1e803a5abfea633ae1c4a7d02bacc 1495 forge/mcp/bin/minecraft/net/minecraft/client/renderer/DestroyBlockProgress.class
-514afbff9c17411bb3370c9d093a2c96ce77358d 38982 forge/mcp/bin/minecraft/net/minecraft/client/renderer/EntityRenderer.class
+d521e40c81906d9e19d14b9ac4455afbd2c2f59f 38905 forge/mcp/bin/minecraft/net/minecraft/client/renderer/EntityRenderer.class
 e01345ab20fed74eee726b093fcff9384863ad6d 1623 forge/mcp/bin/minecraft/net/minecraft/client/renderer/EntitySorter.class
 9dab1cd59ce74d8255d20dcd997cfb0404f5466c 2817 forge/mcp/bin/minecraft/net/minecraft/client/renderer/GLAllocation.class
 59b9c4a30b1d5424dfb6bc024c0e340118da73f5 1798 forge/mcp/bin/minecraft/net/minecraft/client/renderer/IconFlipped.class
@@ -972,7 +979,7 @@ b9142722fea02eb60786bb3e158bda9bd990b414 281 forge/mcp/bin/minecraft/net/minecra
 7caae53600eb8a41acb3372bbd81967ce3f55587 1982 forge/mcp/bin/minecraft/net/minecraft/client/resources/data/TextureMetadataSectionSerializer.class
 1d017d92b4b4ec3db01f6be258e1d522ade49ba5 4893 forge/mcp/bin/minecraft/net/minecraft/client/settings/EnumOptions.class
 c09434ff68c55e44bad6e0efe075ac28ad17a1e5 1770 forge/mcp/bin/minecraft/net/minecraft/client/settings/EnumOptionsHelper.class
-46335786289ad21903fdb4347c97a8577744fbb8 19896 forge/mcp/bin/minecraft/net/minecraft/client/settings/GameSettings.class
+4ed8686f8ddaa16c51e4a15ae207dd8c05779fa6 19881 forge/mcp/bin/minecraft/net/minecraft/client/settings/GameSettings.class
 898e2ec2283a15cf35ebc72aa11cc0e2e68823ba 2169 forge/mcp/bin/minecraft/net/minecraft/client/settings/KeyBinding.class
 ccc0cbdff86348f3024983e87d8d8bc4bd023fe9 542 forge/mcp/bin/minecraft/net/minecraft/client/stats/StatPlaceholder.class
 fe2c42e6f499997da4ea727b81298d734a1734ff 10414 forge/mcp/bin/minecraft/net/minecraft/command/CommandBase.class
@@ -1283,7 +1290,7 @@ a71c0a4858e4092f2a41c1a7221014a4176d7f7c 1779 forge/mcp/bin/minecraft/net/minecr
 d0413d38fa86a194e9e50968c2f6813926d91f5b 14974 forge/mcp/bin/minecraft/net/minecraft/entity/passive/EntityWolf.class
 bc90540da9c92653dec602205cabc31141a80535 126 forge/mcp/bin/minecraft/net/minecraft/entity/passive/IAnimals.class
 08857fa9f979f0f37f316f79cb719342caf6aabe 948 forge/mcp/bin/minecraft/net/minecraft/entity/player/CallableItemName.class
-af8e733e999a26987ff6c2a802640e249120d668 54032 forge/mcp/bin/minecraft/net/minecraft/entity/player/EntityPlayer.class
+ee1a8a5ffdbcf0ff6a75d2646adfd7bfd6d546a9 54209 forge/mcp/bin/minecraft/net/minecraft/entity/player/EntityPlayer.class
 282b00de20a1919cfb843afc28accf00535067de 33908 forge/mcp/bin/minecraft/net/minecraft/entity/player/EntityPlayerMP.class
 9f41a7d1d2e6596bf37d32197af78058fb43ad91 1293 forge/mcp/bin/minecraft/net/minecraft/entity/player/EnumStatus.class
 2ebe8294a1b7758afdc1c694dc7d9893222152eb 13560 forge/mcp/bin/minecraft/net/minecraft/entity/player/InventoryPlayer.class
