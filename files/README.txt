@@ -35,6 +35,22 @@ so the address stays the same every session.
 The host's game has to stay open - it IS the server - and everyone must be
 running this same package.
 
+YOUR NAME AND SKIN
+------------------
+
+Run "settings.bat" (next to the launcher) to set them. Changes apply the
+next time you start the game.
+
+  - Name: letters, numbers and underscore, up to 16 characters. Without
+    one you'll be "Player" and a random number.
+  - Skin: a direct link to an image - it has to end in .png and be the
+    picture itself, not a page showing it. Old 64x32 skins, newer 64x64
+    ones and upscaled versions of either all work; they're resized for
+    you. On a 64x64 skin the outer layer and the separate left arm and
+    leg are dropped, because this version can't show them.
+
+Everyone sees everyone else's skin, as long as you're all on this build.
+
 WHAT'S IN IT
 ------------
 
@@ -50,6 +66,14 @@ Survival systems
     play a record. These stack, so a lit base with music holds you
     together even with trouble outside.
   - /sanity shows your current sanity.
+  - Temperature in Celsius, above the sanity meter. Driven by biome, time
+    of day, altitude, shelter, weather, nearby fire and water. Caves sit
+    near a steady 10C; a desert afternoon passes 40C; an ice plain at
+    night drops below -15C.
+  - Below 0C or above 35C you start taking damage every few seconds, and
+    it gets worse the further out you are. Getting back into the safe
+    range stops it immediately. Cold ignores armour; heat counts as fire
+    damage, so Fire Resistance protects against it.
 
 Mining overhaul
   - Mining natural blocks (stone, dirt, sand, gravel, all ores) drops a
@@ -66,6 +90,7 @@ Items
   - Crude Spear / Iron Spear - damage scales with your running speed, and
     hits much harder if you attack while falling
   - Needle, Charcoal Dust, Pateru
+  - Bark - comes off any log you mine, on top of the log itself
   - Floating damage numbers when you hit something
 
 Music
@@ -77,8 +102,19 @@ Blocks
   - Drawer - 5 slots of storage
   - Shutter - right-click to open/close; blocks light when shut
   - Fence - mobs can't break it and you can't jump over it
+  - Crude Player - right-click for a link to a GIF, then power it with
+    redstone to play. One block, deliberately chunky at 16x16.
+  - Professional Player - two blocks tall like a door: deck on the floor,
+    screen above it, four times the resolution. Redstone at either half
+    plays it, and mining either half takes the whole thing.
+    Only GIFs work. It must be a direct link to the image itself (ending
+    in .gif), not a page that shows it. No sound.
 
 Other changes
+  - The dark is properly dark. Unlit places are pitch black, and so are
+    nights - there's no moonlight to see by any more. Brightness is fixed
+    and the slider is gone, so a torch is the only answer.
+  - Two people can share one bed
   - Zombies break through walls to reach you (slower on harder blocks)
   - Wooden tools break after 2 uses
   - Chests now cost an iron ingot in the middle
@@ -134,6 +170,15 @@ Shaped
     Base    .       Base               Base    Planks  Base
 
     (any wood type of log)             (any wood type of planks)
+
+
+  CRUDE PLAYER                       PROFESSIONAL PLAYER
+    Base    Bark    Base               Iron    Crude   Iron
+    Bark    Pane    Bark               Iron    Redst.  Iron
+    Base    Bark    Base               Iron    Iron    Iron
+
+    ("Pane" is a glass pane,           ("Crude" is a Crude Player -
+     not a full glass block)            the pro model is built around one)
 
 
 Loose Cobblestone shortcuts

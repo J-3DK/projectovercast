@@ -1,21 +1,24 @@
 # Project Overcast update manifest
-# generated 2026-08-06 16:13:32
+# generated 2026-08-06 17:30:55
 # <sha1> <size> <path relative to install root>
 60623881304026f8df7f85cce1045f13e19199eb 3749 forge/mcp/bin/minecraft/Start.class
-33c2a34cdece9bb5e33cde766060a1d700bf17c9 1496 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
+2f8e78e24a8280491d4076efbd21d9e31197a915 1635 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
 7f89c30611df5ff0ce8825617c73e3ecb823d1e6 619 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_front.png
 e6ad26738edef951b1de9b153de904529b4a57fd 528 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_side.png
 93fb0b66b2c4fd774919cee18af619f42d9540d0 717 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_top.png
+0daf519c429d3d7773cba4f74d6f44219c06dd78 179 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_player_deck.png
 c7eaa76c1ae6c7f587428ab7adc4fc661660b83c 794 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/drawer_front.png
 e6ad26738edef951b1de9b153de904529b4a57fd 528 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/drawer_side.png
 c125df1e2db7df9e2860a1c0d04022551fd34448 170 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/shutter_closed.png
 bdb7d9287cbdecdf6cbbba81c7ab03b624504a62 134 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/shutter_open.png
+f87e14f24af282e44e820aabe4c788f30332aeca 150 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/video_screen.png
 7f93cb5a8273819925dff43ab2a4b28443a4fee2 1764 forge/mcp/bin/minecraft/assets/citrusedition/textures/gui/cabinet.png
 0bf0e0c5e2614553e9a70232c1edb6d4cbf415ce 411 forge/mcp/bin/minecraft/assets/citrusedition/textures/gui/emotion/ill.png
 bf971516d7111b5235efba6fda0763e2621336b1 395 forge/mcp/bin/minecraft/assets/citrusedition/textures/gui/emotion/neutral.png
 e814886d1987b4bde3e69c000eddfc8295294f10 385 forge/mcp/bin/minecraft/assets/citrusedition/textures/gui/emotion/proud.png
 e2d69772429271624066d60ce7eeeec950c73e2c 458 forge/mcp/bin/minecraft/assets/citrusedition/textures/gui/emotion/veryhappyjoyfulyay.png
 62341030efd190976571d9c65d7091733459dab4 410 forge/mcp/bin/minecraft/assets/citrusedition/textures/gui/emotion/worried.png
+4f8e3a8eec7f1ee2de0697f7ed5cf1faef17c0be 446 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/bark.png
 efea9fc93daa1fdea9fb0e357c5f1e16f27354aa 298 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/base.png
 bdd8276d25c0b63d91b78371266aca5edeb0696f 464 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/blank_crude_disc.png
 7309fcfbced398e7ecff603623e7966854ba110a 494 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/crude_disc_blue.png
@@ -27,11 +30,14 @@ f507566b7e445bbc307c2eae37561af7bd57d53d 350 forge/mcp/bin/minecraft/assets/citr
 e22ff35a91e386c06787ae1bc1f1ddbe010885ee 305 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/needle.png
 0ebe47b84ffa6db40e2a36f933195019b789791e 934 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/pateru.png
 cb5fad41d769456e5b3bac70b44b77f7703347d9 331 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/rainin_disc.png
+0dcceb0800a863948beca880c970d94923b1ecbf 1788 forge/mcp/bin/minecraft/com/citrusedition/mod/BarkDropHandler.class
 f9cbbf397c20b59dc7d7bf8edc397b2f7405553b 5389 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockCabinet.class
 bab9da89afddfed88821fa356d3b6798871daa6e 4938 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockCrudeJukebox.class
 8865a05fba5dd64dcade0f3dfb64add5f858a66b 4018 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockFence.class
 f40477b0e70ba3a24420b742401443dab20556c2 1024 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockLoose.class
+f6eb09a593a6f07010c0e5bc21d21dec29b4fcdf 6492 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockProPlayer.class
 b57839efc0b2a695aae6a2d5345d1163fab13de5 2981 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockShutter.class
+7986647e60ade65cda92c0f90d52c53798dbbe13 4910 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockVideoPlayer.class
 2ecc55636ca279cdd83c2be3c9ff7905dbbbe405 3064 forge/mcp/bin/minecraft/com/citrusedition/mod/BloodTriggerHandler.class
 449d14569b24b09ee793b4edc487bdf89aa642ff 243 forge/mcp/bin/minecraft/com/citrusedition/mod/ChopCorpseHandler$1.class
 dc9dfd62484175a394a490419e9e0b5b4042d93d 726 forge/mcp/bin/minecraft/com/citrusedition/mod/ChopCorpseHandler$ChopProgress.class
@@ -41,7 +47,7 @@ e0d411cd78eb5b2f9d644971dcf1c0eaad322a7a 1577 forge/mcp/bin/minecraft/com/citrus
 235ee212b65606717fafa32d397914ec1061c6e4 1966 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSanity.class
 67e84c6703d11b272ee054888841ed83c4afef79 2591 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetEmotion.class
 027439457b788cec2bf31f31d09d1922e50a92dd 2577 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetSanity.class
-99bb84a0d90f3834fb32c2085a19bc04e5c2c3f7 11517 forge/mcp/bin/minecraft/com/citrusedition/mod/CommonProxy.class
+5439822ba328542aa360fd2c6af5577dc0ae59bd 12778 forge/mcp/bin/minecraft/com/citrusedition/mod/CommonProxy.class
 960f13f8a9f715f5c205099bdfa9e02f66fb8893 2632 forge/mcp/bin/minecraft/com/citrusedition/mod/ContainerCabinet.class
 041e45f4c72d219c596bb0f7c6ef73faa68a5c31 1979 forge/mcp/bin/minecraft/com/citrusedition/mod/CrudeSpearCombatHandler.class
 aad127f2d981319155dad1c62a54ea62ebb52598 2265 forge/mcp/bin/minecraft/com/citrusedition/mod/DamageIndicatorTriggerHandler.class
@@ -53,6 +59,7 @@ d5db901ee347e145459b09da32207508df5d80b1 5167 forge/mcp/bin/minecraft/com/citrus
 3e53cb59e714c921139b99b81373fdd1e774fd0c 2770 forge/mcp/bin/minecraft/com/citrusedition/mod/EntityPlayerCorpse.class
 42e15223004a35c9a813796039bdedf1651b1b22 2681 forge/mcp/bin/minecraft/com/citrusedition/mod/GuiCabinet.class
 8c1ae9c875fb42bbd14f724582ab24928bddf742 1977 forge/mcp/bin/minecraft/com/citrusedition/mod/IronSpearCombatHandler.class
+fe752d7a97a7b89790365ab2903e80b083ea385f 722 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemBark.class
 5085c384e6d1fc8ea70521912a5e814a67f47783 722 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemBase.class
 d922cf5faf64a1dbf5f6fc68b844434416e13d69 771 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemBlankCrudeDisc.class
 c1b69d9d4774468ad74d3c5441c8b7a7ba9b99bb 755 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemCharcoalDust.class
@@ -81,11 +88,14 @@ f6b530b5bf7b29258020a906063a37896c8665f1 888 forge/mcp/bin/minecraft/com/citruse
 0cac6de25dd1ede5f6a5c3a2c5a72b7c52bf212b 4072 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureTickHandler.class
 55b69ee217d4038324a93a8faf1481aa9b84880a 4029 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityCabinet.class
 3a22dc1e4f98b5495e139e29cd3a4c4cfe45262f 333 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityFence.class
+d1070e6a31a9968dd31ab7cec4cb87cb0c2f4b91 755 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityProPlayer.class
+7b40afbe972c79f986f2f2b8562c33742c28fb25 2645 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityVideoPlayer.class
+9f9eae80ad470b7cca056d814493d8b289500906 3206 forge/mcp/bin/minecraft/com/citrusedition/mod/VideoPacketHandler.class
 8d1af653f56454f67784576d97cda5239dd787a7 3243 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodPacketHandler.class
 b7354101a22e1451efdf49a02a427e483bb55143 1772 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodParticle.class
 beda96fb6277a29ab4a1fd29b419d3c352627a25 2359 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodReactionHud.class
 3ea87c14f4b08a1f2b57071ec2c8efa7ab301426 3485 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodSplatterParticle.class
-d4c893e817132c5f5eae33038513e840382070c2 2949 forge/mcp/bin/minecraft/com/citrusedition/mod/client/ClientProxy.class
+e0facae04133551182ba4a9875e0fb08f6ef4d4a 3659 forge/mcp/bin/minecraft/com/citrusedition/mod/client/ClientProxy.class
 419d002b3b93d42c608c2eaf3b41a8f94b946519 2039 forge/mcp/bin/minecraft/com/citrusedition/mod/client/CustomSkinBuffer.class
 4bde57a10ae598d6c87c7d2b4342d44af046fb55 1006 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicator.class
 2f09936c9ba4be647751253d8c16b02f4aad3625 3343 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicatorManager.class
@@ -93,6 +103,10 @@ b3a69e3cf1efd9c9331467ebe62c3b21a3a0aa1e 2079 forge/mcp/bin/minecraft/com/citrus
 ff64554d1aa7c8f56100a5ae373b9a24944e8641 844 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicatorRenderHandler.class
 8e019927312539b69f8d8c3dd064fe8eb4b351fc 1437 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicatorTickHandler.class
 06925053536acc88100ec06b10ab575b09d0e6e0 5172 forge/mcp/bin/minecraft/com/citrusedition/mod/client/EmotionHudRenderer.class
+001b9b53ecd45d10451e9d2e72fa5f021de73f60 900 forge/mcp/bin/minecraft/com/citrusedition/mod/client/GifPlayback$1.class
+c3982d7a8f53055945dd75ef3962425f2f548520 775 forge/mcp/bin/minecraft/com/citrusedition/mod/client/GifPlayback$FrameInfo.class
+7e889536c6958bcb6239e91a26a290517ee97c94 10553 forge/mcp/bin/minecraft/com/citrusedition/mod/client/GifPlayback.class
+35d4d6349efea9d2a0a1c4ce99fca333545b3413 3620 forge/mcp/bin/minecraft/com/citrusedition/mod/client/GuiVideoPlayer.class
 c63adf0ee56c42eeb0f84a54c8385822623a395d 2493 forge/mcp/bin/minecraft/com/citrusedition/mod/client/RenderPlayerCorpse.class
 56442d03dadbae9a0f9eb74b1bf005957653aea9 3299 forge/mcp/bin/minecraft/com/citrusedition/mod/client/SanityHallucinationHandler.class
 e42f91d4cf9cb87bc1baec953b5dcd3448dba702 2875 forge/mcp/bin/minecraft/com/citrusedition/mod/client/SanityHudRenderer.class
@@ -101,6 +115,9 @@ e42f91d4cf9cb87bc1baec953b5dcd3448dba702 2875 forge/mcp/bin/minecraft/com/citrus
 eea7c8dd925af614d81a71bb1dd93762b9067d2d 3395 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TemperatureHudRenderer.class
 4fe043bb770e4a82fd60aefef243ccb90bd156ce 3004 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityDrawerRenderer.class
 b8f2516f62b340cb8a3f28110103fc54eb12cd9b 3629 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityFenceRenderer.class
+b49efba111967795f5e252d349e91fab2ec5258b 1772 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityProPlayerRenderer.class
+e1b88bd4be0ec96fefec50f6981dc5d46f4a642d 1672 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityVideoPlayerRenderer.class
+119f1385c3f7bb4a074ee8fa7fba9d721e61ecf9 4132 forge/mcp/bin/minecraft/com/citrusedition/mod/client/VideoScreenRenderer.class
 c3eceab8ba6ade7999e151c42e983c238278c792 3181 forge/mcp/bin/minecraft/com/citrusedition/mod/client/WindTrailEffectHandler.class
 8996fee7222aae280c01d3ef88126dac3515e362 1456 forge/mcp/bin/minecraft/com/citrusedition/mod/client/WindTrailParticle.class
 da1ba56725f6159b8eaf8ab32299395cbcc7d69d 782 forge/mcp/bin/minecraft/cpw/mods/fml/client/CustomModLoadingErrorDisplayException.class
@@ -853,7 +870,7 @@ fb792dc4b101c0fc60999de20b5d97886f5164ea 2081 forge/mcp/bin/minecraft/net/minecr
 6fb513f0937e4005b1fc0f5cc1c9a2bddc04d757 747 forge/mcp/bin/minecraft/net/minecraft/client/renderer/StitcherException.class
 d40064b7fb0fc3168ab707268a098508d0ad942d 8680 forge/mcp/bin/minecraft/net/minecraft/client/renderer/Tessellator.class
 5c663357dacf94b0decd2aa5d5dfe40fc2d8636b 3259 forge/mcp/bin/minecraft/net/minecraft/client/renderer/ThreadDownloadImageData.class
-884c461f38a4b9a00776d6f7f4ee8ded74527eef 2487 forge/mcp/bin/minecraft/net/minecraft/client/renderer/ThreadDownloadImageDataINNER1.class
+c1153aad96eb40f97abadfff5c5155818e98b280 2623 forge/mcp/bin/minecraft/net/minecraft/client/renderer/ThreadDownloadImageDataINNER1.class
 35b79ba9aa110c94bccb6edad09a7b8618e7b3c1 7303 forge/mcp/bin/minecraft/net/minecraft/client/renderer/WorldRenderer.class
 1d967360e959054307ad516c148b06be6b3e3ae9 1407 forge/mcp/bin/minecraft/net/minecraft/client/renderer/culling/ClippingHelper.class
 210f7f940f06a32266337acad738065bcd675621 3784 forge/mcp/bin/minecraft/net/minecraft/client/renderer/culling/ClippingHelperImpl.class
@@ -2306,6 +2323,6 @@ a1cf35cf083c9ab0160178d3c4ca9ef133eb10ec 1935956 forge/mcp/jars/assets/records/r
 f34afa3ba5f756e90a1f61023bbe069ee8442608 1558180 forge/mcp/jars/assets/records/strad.ogg
 876655d1691803f4cef17a6288d971285be79c6a 1845255 forge/mcp/jars/assets/records/wait.ogg
 f685021d4f26d6b590bffb341908e25e92e18cef 1987588 forge/mcp/jars/assets/records/ward.ogg
-f3b510f040acebdc17a998820538a4bcd5e241d3 6865 README.txt
+d994aec35d6e5b2d9339d81f5ecefaf64b5aba41 9208 README.txt
 3b3fbb638b368934c809a2fa3beed4565d01f08f 767 Launch Project Overcast.bat
 d2c80aadc49ed42ead356f8df89f48ef480465f6 2906 settings.bat
