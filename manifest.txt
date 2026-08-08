@@ -1,8 +1,12 @@
 # Project Overcast update manifest
-# generated 2026-08-06 17:30:55
+# generated 2026-08-07 23:47:58
 # <sha1> <size> <path relative to install root>
 60623881304026f8df7f85cce1045f13e19199eb 3749 forge/mcp/bin/minecraft/Start.class
-2f8e78e24a8280491d4076efbd21d9e31197a915 1635 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
+77f9adacdc6e62ce12d2402864688e8f894cdb35 2125 forge/mcp/bin/minecraft/assets/citrusedition/lang/en_US.lang
+1d60d39d18fab6cf2ccf56b5baafecfa89cb3c85 280 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/cannon.png
+96728aaf5f5dc11f3ca635dd42a031183ce735d9 288 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/cannon_crate.png
+dfd96895b9e8a0a4f97cb8af66aaf00bfb5ffe69 135 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/cannon_metal.png
+31ee16c46fc641e0402357f9bff61b898c530709 143 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/cannon_wood.png
 7f89c30611df5ff0ce8825617c73e3ecb823d1e6 619 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_front.png
 e6ad26738edef951b1de9b153de904529b4a57fd 528 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_side.png
 93fb0b66b2c4fd774919cee18af619f42d9540d0 717 forge/mcp/bin/minecraft/assets/citrusedition/textures/blocks/crude_jukebox_top.png
@@ -21,17 +25,23 @@ e2d69772429271624066d60ce7eeeec950c73e2c 458 forge/mcp/bin/minecraft/assets/citr
 4f8e3a8eec7f1ee2de0697f7ed5cf1faef17c0be 446 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/bark.png
 efea9fc93daa1fdea9fb0e357c5f1e16f27354aa 298 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/base.png
 bdd8276d25c0b63d91b78371266aca5edeb0696f 464 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/blank_crude_disc.png
+ee1101411c29671d50abc77e5c1246868c8f3231 343 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/cannonball.png
 7309fcfbced398e7ecff603623e7966854ba110a 494 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/crude_disc_blue.png
 89faa611d9fefaeb65aa1c611e3c98c2037b794c 494 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/crude_disc_green.png
 cd373d870b03022feb101965ae81c5a28dd88584 343 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/crude_spear.png
+a658fc3e7a8bbda82129407bc1217fc95088a6a6 297 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/diamond_hammer.png
 d3c29cc7cb6ad7d6770d2c3e15f478317237e033 241 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/dust.png
 37a769a4fc73375a5185e5335ffef768127bf9ce 319 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/fever_disc.png
+9c079ae217319e77a26f2c14e828d56bf8f74581 318 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/iron_hammer.png
 f507566b7e445bbc307c2eae37561af7bd57d53d 350 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/iron_spear.png
 e22ff35a91e386c06787ae1bc1f1ddbe010885ee 305 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/needle.png
 0ebe47b84ffa6db40e2a36f933195019b789791e 934 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/pateru.png
 cb5fad41d769456e5b3bac70b44b77f7703347d9 331 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/rainin_disc.png
+bf3a3a80554013a46c3ddfa29952c5e62466e5b1 285 forge/mcp/bin/minecraft/assets/citrusedition/textures/items/wooden_mallet.png
 0dcceb0800a863948beca880c970d94923b1ecbf 1788 forge/mcp/bin/minecraft/com/citrusedition/mod/BarkDropHandler.class
 f9cbbf397c20b59dc7d7bf8edc397b2f7405553b 5389 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockCabinet.class
+7ded763aee1662af4836bf93bb87f12dec122cfa 7240 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockCannon.class
+d947cd30d711d67a7819cd97a6f072133cae60d9 2831 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockCannonCrate.class
 bab9da89afddfed88821fa356d3b6798871daa6e 4938 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockCrudeJukebox.class
 8865a05fba5dd64dcade0f3dfb64add5f858a66b 4018 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockFence.class
 f40477b0e70ba3a24420b742401443dab20556c2 1024 forge/mcp/bin/minecraft/com/citrusedition/mod/BlockLoose.class
@@ -47,7 +57,7 @@ e0d411cd78eb5b2f9d644971dcf1c0eaad322a7a 1577 forge/mcp/bin/minecraft/com/citrus
 235ee212b65606717fafa32d397914ec1061c6e4 1966 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSanity.class
 67e84c6703d11b272ee054888841ed83c4afef79 2591 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetEmotion.class
 027439457b788cec2bf31f31d09d1922e50a92dd 2577 forge/mcp/bin/minecraft/com/citrusedition/mod/CommandSetSanity.class
-5439822ba328542aa360fd2c6af5577dc0ae59bd 12778 forge/mcp/bin/minecraft/com/citrusedition/mod/CommonProxy.class
+8026071bfa5997ecf065490c547a6cd4576893aa 15455 forge/mcp/bin/minecraft/com/citrusedition/mod/CommonProxy.class
 960f13f8a9f715f5c205099bdfa9e02f66fb8893 2632 forge/mcp/bin/minecraft/com/citrusedition/mod/ContainerCabinet.class
 041e45f4c72d219c596bb0f7c6ef73faa68a5c31 1979 forge/mcp/bin/minecraft/com/citrusedition/mod/CrudeSpearCombatHandler.class
 aad127f2d981319155dad1c62a54ea62ebb52598 2265 forge/mcp/bin/minecraft/com/citrusedition/mod/DamageIndicatorTriggerHandler.class
@@ -56,21 +66,26 @@ aad127f2d981319155dad1c62a54ea62ebb52598 2265 forge/mcp/bin/minecraft/com/citrus
 67288e352cb0610ef59cb84fa6a1f3e1dc0e6206 2452 forge/mcp/bin/minecraft/com/citrusedition/mod/EmotionPacketHandler.class
 0ddd0867cf81f077e72f14f9e0adfc201bf4c685 2569 forge/mcp/bin/minecraft/com/citrusedition/mod/EmotionProperties.class
 d5db901ee347e145459b09da32207508df5d80b1 5167 forge/mcp/bin/minecraft/com/citrusedition/mod/EmotionTickHandler.class
+0d4d48dbc227b3bc22b9a458bc305a029eac68b5 1788 forge/mcp/bin/minecraft/com/citrusedition/mod/EntityCannonball.class
 3e53cb59e714c921139b99b81373fdd1e774fd0c 2770 forge/mcp/bin/minecraft/com/citrusedition/mod/EntityPlayerCorpse.class
 42e15223004a35c9a813796039bdedf1651b1b22 2681 forge/mcp/bin/minecraft/com/citrusedition/mod/GuiCabinet.class
+2e0e72533614329c9faaa2163a08e18b7447ca6e 3033 forge/mcp/bin/minecraft/com/citrusedition/mod/HammerCombatHandler.class
 8c1ae9c875fb42bbd14f724582ab24928bddf742 1977 forge/mcp/bin/minecraft/com/citrusedition/mod/IronSpearCombatHandler.class
 fe752d7a97a7b89790365ab2903e80b083ea385f 722 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemBark.class
 5085c384e6d1fc8ea70521912a5e814a67f47783 722 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemBase.class
 d922cf5faf64a1dbf5f6fc68b844434416e13d69 771 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemBlankCrudeDisc.class
+0d8f36385c90f50731cec54eabbbc538e72ca6e6 819 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemCannonball.class
 c1b69d9d4774468ad74d3c5441c8b7a7ba9b99bb 755 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemCharcoalDust.class
 e074cc813864f920a40c3a9750a593ec7aa1434d 2167 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemCrudeDiscBlue.class
 50db9a8bd9a889fbda959f8c3a97aaa29641c25d 2168 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemCrudeDiscGreen.class
 3cbd9cc2c9e0ce488f196866d614aa5b3f455737 2248 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemCrudeSpear.class
 77cde18fccbb5ca667d9f2bc8a18692b3ff812e8 689 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemFeverDisc.class
+b97fe5353d5bb80ec16dc3e110df0eb20015d3de 3239 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemHammer.class
 ec7e26f3f9f8d10d8570f0bcce1043114f5e94b9 912 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemIronSpear.class
 38a6e7e1ca1bfbf5eb21013c3bdf0252774dfb59 732 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemNeedle.class
 dc3f72eb57898f07e507f22da7d810fb8737d759 1267 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemPateru.class
 4dbe40bbf348d9faa8132d3a02cd5544c10e6ff9 696 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemRaininDisc.class
+54cbcddd80204c5f173d05192f7c9b7052b255e9 1785 forge/mcp/bin/minecraft/com/citrusedition/mod/ItemWarmArmor.class
 43366c985e8da3acc5f3fb1f09cd3c3412d22952 2357 forge/mcp/bin/minecraft/com/citrusedition/mod/NaturalLooseDropHandler.class
 b719991caf978a5432df18100785b5c692026cb5 2827 forge/mcp/bin/minecraft/com/citrusedition/mod/PlayerConfig.class
 4842baca6a4da5642c566738931259d188010739 1494 forge/mcp/bin/minecraft/com/citrusedition/mod/PlayerCorpseHandler.class
@@ -85,8 +100,9 @@ f6b530b5bf7b29258020a906063a37896c8665f1 888 forge/mcp/bin/minecraft/com/citruse
 103be43af085ecd3d11afbc867f3a2b131ff2db5 1999 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureEventHandler.class
 684efcd0c9423b35e9f48a2cb3d4644d185a5564 2481 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperaturePacketHandler.class
 6dbd4864c0ac8e65e12f8bdfaddfbacc682ccf4a 2688 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureProperties.class
-0cac6de25dd1ede5f6a5c3a2c5a72b7c52bf212b 4072 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureTickHandler.class
+db56ad7a408cc3058e8c1059541435075346fd66 5086 forge/mcp/bin/minecraft/com/citrusedition/mod/TemperatureTickHandler.class
 55b69ee217d4038324a93a8faf1481aa9b84880a 4029 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityCabinet.class
+1bf7ebfedc2fef86b72011cf77638d19e7692fbb 2882 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityCannon.class
 3a22dc1e4f98b5495e139e29cd3a4c4cfe45262f 333 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityFence.class
 d1070e6a31a9968dd31ab7cec4cb87cb0c2f4b91 755 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityProPlayer.class
 7b40afbe972c79f986f2f2b8562c33742c28fb25 2645 forge/mcp/bin/minecraft/com/citrusedition/mod/TileEntityVideoPlayer.class
@@ -95,7 +111,9 @@ d1070e6a31a9968dd31ab7cec4cb87cb0c2f4b91 755 forge/mcp/bin/minecraft/com/citruse
 b7354101a22e1451efdf49a02a427e483bb55143 1772 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodParticle.class
 beda96fb6277a29ab4a1fd29b419d3c352627a25 2359 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodReactionHud.class
 3ea87c14f4b08a1f2b57071ec2c8efa7ab301426 3485 forge/mcp/bin/minecraft/com/citrusedition/mod/client/BloodSplatterParticle.class
-e0facae04133551182ba4a9875e0fb08f6ef4d4a 3659 forge/mcp/bin/minecraft/com/citrusedition/mod/client/ClientProxy.class
+900aab8bf13523976da0a2c0fb1829aed6e5b6a7 15564 forge/mcp/bin/minecraft/com/citrusedition/mod/client/CannonModel.class
+2db418f608af0ee8780874ed2557a483475dee37 1194 forge/mcp/bin/minecraft/com/citrusedition/mod/client/CitrusSoundHandler.class
+6b7c8370a84df66d65dbff8e135442f4a6e9cd8a 4083 forge/mcp/bin/minecraft/com/citrusedition/mod/client/ClientProxy.class
 419d002b3b93d42c608c2eaf3b41a8f94b946519 2039 forge/mcp/bin/minecraft/com/citrusedition/mod/client/CustomSkinBuffer.class
 4bde57a10ae598d6c87c7d2b4342d44af046fb55 1006 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicator.class
 2f09936c9ba4be647751253d8c16b02f4aad3625 3343 forge/mcp/bin/minecraft/com/citrusedition/mod/client/DamageIndicatorManager.class
@@ -113,6 +131,7 @@ e42f91d4cf9cb87bc1baec953b5dcd3448dba702 2875 forge/mcp/bin/minecraft/com/citrus
 6c51ad271b91cff95a070503fda3018c1d532958 1737 forge/mcp/bin/minecraft/com/citrusedition/mod/client/SkinClientHandler.class
 1fb07c09fdbd1236fa046e9b928f7aabafd5be74 2373 forge/mcp/bin/minecraft/com/citrusedition/mod/client/SkinRegistry.class
 eea7c8dd925af614d81a71bb1dd93762b9067d2d 3395 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TemperatureHudRenderer.class
+2938181a8cdc1731f57049d73710b26227f47f8a 3266 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityCannonRenderer.class
 4fe043bb770e4a82fd60aefef243ccb90bd156ce 3004 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityDrawerRenderer.class
 b8f2516f62b340cb8a3f28110103fc54eb12cd9b 3629 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityFenceRenderer.class
 b49efba111967795f5e252d349e91fab2ec5258b 1772 forge/mcp/bin/minecraft/com/citrusedition/mod/client/TileEntityProPlayerRenderer.class
@@ -2323,6 +2342,7 @@ a1cf35cf083c9ab0160178d3c4ca9ef133eb10ec 1935956 forge/mcp/jars/assets/records/r
 f34afa3ba5f756e90a1f61023bbe069ee8442608 1558180 forge/mcp/jars/assets/records/strad.ogg
 876655d1691803f4cef17a6288d971285be79c6a 1845255 forge/mcp/jars/assets/records/wait.ogg
 f685021d4f26d6b590bffb341908e25e92e18cef 1987588 forge/mcp/jars/assets/records/ward.ogg
-d994aec35d6e5b2d9339d81f5ecefaf64b5aba41 9208 README.txt
+bb21b4bfbe5bd45d55c78fa7e8a3d06c4aef9299 34547 forge/mcp/jars/assets/sound/citrusedition/use.ogg
+0e4e72c9d6ae2d9542fdf5ed79e69755a1c8c5ac 11173 README.txt
 3b3fbb638b368934c809a2fa3beed4565d01f08f 767 Launch Project Overcast.bat
 d2c80aadc49ed42ead356f8df89f48ef480465f6 2906 settings.bat

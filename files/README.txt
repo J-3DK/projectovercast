@@ -74,6 +74,11 @@ Survival systems
     it gets worse the further out you are. Getting back into the safe
     range stops it immediately. Cold ignores armour; heat counts as fire
     damage, so Fire Resistance protects against it.
+  - Warm Armour (wool) is the answer to cold: every piece is worth 4C, so
+    a full set turns an ice plain at night from lethal into survivable.
+    It works against you in the heat though - 2C worse per piece - so
+    it's a coat, not an upgrade. The meter shows what you feel with it
+    on, not the bare air temperature.
 
 Mining overhaul
   - Mining natural blocks (stone, dirt, sand, gravel, all ores) drops a
@@ -91,6 +96,12 @@ Items
     hits much harder if you attack while falling
   - Needle, Charcoal Dust, Pateru
   - Bark - comes off any log you mine, on top of the log itself
+  - Wooden Mallet, Iron Hammer, Diamond Sledge - two points harder than
+    the sword of the same material, and they swing like the spears do:
+    a standing hit is feeble, a sprinting one lands full force, and
+    dropping onto something hits twice as hard again. A crit, or any
+    blow over 10, lands with a bang you can hear.
+  - Warm Helmet / Tunic / Leggings / Boots - wool clothing, see above
   - Floating damage numbers when you hit something
 
 Music
@@ -109,6 +120,13 @@ Blocks
     plays it, and mining either half takes the whole thing.
     Only GIFs work. It must be a direct link to the image itself (ending
     in .gif), not a page that shows it. No sound.
+  - Cannon - arrives as a Cannon Crate. Break the crate open with a
+    hammer or an axe for an Assembled Cannon; any other tool just gives
+    the crate back. Place it facing where you want to shoot, then load
+    gunpowder, load a cannonball, and light it with flint and steel.
+    About three seconds between shots.
+    Once placed it's there for good - it takes as long to break as
+    obsidian and drops nothing, so getting another means another crate.
 
 Other changes
   - The dark is properly dark. Unlit places are pitch black, and so are
@@ -179,6 +197,27 @@ Shaped
 
     ("Pane" is a glass pane,           ("Crude" is a Crude Player -
      not a full glass block)            the pro model is built around one)
+
+
+  CANNON CRATE                       CANNONBALL (makes 2)
+    Iron    Iron    Iron                .      Iron    .
+    Iron    IronBl  Iron                Iron   Flint   Iron
+    Bark    Bark    Bark                .      Iron    .
+
+    ("IronBl" is a block of iron)
+
+
+  HAMMERS - "M" is planks, iron ingot or diamond
+    M   M   .        Wooden Mallet breaks after 3 swings.
+    .   S   .        Iron and Diamond last as long as their tools do.
+    .   S   .        ("S" is a stick)
+
+
+  WARM ARMOUR - any colour of wool
+    HELMET           TUNIC            LEGGINGS         BOOTS
+     W   W   W        W   .   W        W   W   W        .   .   .
+     W   .   W        W   W   W        W   .   W        W   .   W
+     .   .   .        W   W   W        W   .   W        W   .   W
 
 
 Loose Cobblestone shortcuts
